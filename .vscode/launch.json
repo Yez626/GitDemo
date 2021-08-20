@@ -1,0 +1,112 @@
+// https://code.visualstudio.com/docs/cpp/launch-json-reference
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch DogLauncher",
+            "request": "launch",
+            "mainClass": "oooo.DogLauncher",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch BreakContinue",
+            "request": "launch",
+            "mainClass": "BreakContinue",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch function_max",
+            "request": "launch",
+            "mainClass": "function_max",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch drawtrainangle",
+            "request": "launch",
+            "mainClass": "drawtrainangle",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargeDemo",
+            "request": "launch",
+            "mainClass": "LargeDemo",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloNumber",
+            "request": "launch",
+            "mainClass": "HelloNumber",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch Helloworld",
+            "request": "launch",
+            "mainClass": "Helloworld",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch helloworld",
+            "request": "launch",
+            "mainClass": "helloworld",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch inputprogram",
+            "request": "launch",
+            "mainClass": "inputprogram",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "demo.src.App",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "type": "java",
+            "name": "Launch inputprogram",
+            "request": "launch",
+            "mainClass": "Java.inputprogram",
+            "projectName": "VS_Code_44439902"
+        },
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "internalConsoleOptions": "neverOpen",
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\Program Files\\mingw64\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": false
+                }
+            ],
+            "preLaunchTask": "task g++"
+        }
+    ]
+}
